@@ -15,28 +15,12 @@ The main goal of this project is to build a predictive model that identifies cus
 - **Model Evaluation:** Assessing the performance of models using metrics like accuracy, precision, recall, F1-score, and AUC-ROC.
 - **Deployment:** Exporting the trained model and creating an API for real-time predictions.
 
-## Repository Structure
+## Getting Started
 
-customer-churn-prediction/
-│
-├── data/
-│ ├── raw/ # Raw data files
-│ ├── processed/ # Processed data files
-│
-├── notebooks/
-│ ├── 01_data_preprocessing.ipynb
-│ ├── 02_eda.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_model_building.ipynb
-│ ├── 05_model_evaluation.ipynb
-│
-├── src/
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── model_building.py
-│ ├── model_evaluation.py
-│ ├── app.py # Flask API for model deployment
-│
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
-└── LICENSE # Project license
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/customer-churn-prediction.git
+   cd customer-churn-prediction
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, please feel free to create a pull request or open an issue.
